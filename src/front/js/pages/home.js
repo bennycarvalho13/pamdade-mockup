@@ -62,17 +62,115 @@ export const Home = () => {
 					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-			<div className="row m-5 justify-content-center">
-				<div className="col-3">
-					<div className="card" style={{ Width: "100" }}>
-						<img src="https://placehold.co/100x100/darkcyan/white?text=Card" className="card-img-top" alt="..." />
+			<div style={{ overflowX: "scroll" }} className="d-flex flex-row m-4">
+				<div className="col-2 ms-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+1" className="card-img-top" alt="..." />
 						<div className="card-body row justify-content-center">
 							<p className="m-2 card-text text-center fs-5 px-1">Operador de motoserrra</p>
-							<h4 className="m-2 card-text text-danger fs-5 text-center px-1">R$ 348 PIX</h4>
-							<a href="#" class="btn btn-outline-danger fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 348 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
 						</div>
 					</div>
 				</div>
+				<div className="col-2 mx-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+2" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Lanterneiro</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 418 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-2 mx-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+3" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Conferente</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 367 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-2 mx-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+4" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Auxiliador de Expedição</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 295 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-2 mx-2">
+					<div className="card" >
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+5" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Empilhador</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 326 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-2 mx-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+6" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Carga e Descarga</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 412 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-2 mx-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+7" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Operador de motoserrra</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 257 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<div className="col-2 mx-2">
+					<div className="card">
+						<img src="https://placehold.co/100x100/darkcyan/white?text=Card+8" className="card-img-top" alt="..." />
+						<div className="card-body row justify-content-center">
+							<p className="m-2 card-text text-center fs-5 px-1">Ajudante de Armazém</p>
+							<h4 className="m-2 card-text text-primary fs-5 text-center px-1">R$ 233 PIX</h4>
+							<a href="#" class="btn btn-outline-primary fs-4 m-2">Contratar<i className="fa-solid mx-2 fa-cart-plus"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="row justify-content-center">
+			<form className="col-8">
+			<label for="nome" className="form-label">Nome Completo</label>
+				<div className="mb-3 d-flex">
+					<input type="text" className="forms form-control me-2" id="nome" placeholder="Nome" aria-describedby="nome" />
+					<input type="text" className="forms form-control" id="sobrenome" placeholder="Sobrenome" aria-describedby="sobrenome" />
+				</div>
+				<div className="mb-3">
+					<label for="cnpj" className="form-label">CNPJ</label>
+					<input type="text" className="forms form-control" placeholder="XX.XXX.XXX/XXXX-XX"  id="cnpj" />
+				</div>
+				<div className="mb-3">
+					<label for="telefone" className="form-label">Telefone</label>
+					<input type="number" className="forms form-control" placeholder="00 0000-0000" id="telefone" />
+				</div>
+				<div className="mb-3">
+					<label for="email" className="form-label">E-mail</label>
+					<input type="email" className="forms form-control" placeholder="Seu email" id="email" />
+				</div>
+				<div className="mb-3">
+					<label for="mensagem" className="form-label">Mensagem</label>
+					<textarea id="mensagem" className="forms form-control bg bg-dark-subtle" placeholder="EX: Preciso de Funcionarios..." maxLength={250} rows="3"></textarea>
+				</div>
+				<div className="d-flex justify-content-end">
+				<button type="submit" className="btn btn-lg btn-info">Enviar</button>
+				</div>
+			</form>
 			</div>
 		</div>
 	);

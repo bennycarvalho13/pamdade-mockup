@@ -2,3 +2,12 @@
     background-color: #0D3878;
     color: darkslateblue;
 }
+#options:hover{
+    text-decoration: underline;
+}
+#options{
+    text-decoration: none;
+}
+.forms{
+    background-color: lightgray;
+}
